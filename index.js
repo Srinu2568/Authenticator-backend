@@ -58,11 +58,6 @@ const start = async () => {
     const port = process.env.PORT || 1476;
     app.listen(
       port,
-      [
-        '192.168.0.104', // Wifi's ip
-        '192.168.223.148', // Mobile's ip
-        'localhost', // localhost
-      ],
       () => {
         console.log(`Server is running on port ${port}.`);
       }
